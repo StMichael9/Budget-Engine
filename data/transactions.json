@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-01",
+    "merchant": "Starbucks",
+    "category": "Dining",
+    "amount": 8.75
+  },
+  {
+    "id": 2,
+    "date": "2026-05-02",
+    "merchant": "Safeway",
+    "category": "Groceries",
+    "amount": 54.2
+  },
+  {
+    "id": 3,
+    "date": "2026-05-03",
+    "merchant": "Shell Gas",
+    "category": "Transportation",
+    "amount": 42.1
+  },
+  {
+    "id": 4,
+    "date": "2026-05-04",
+    "merchant": "Netflix",
+    "category": "Entertainment",
+    "amount": 15.99
+  },
+  {
+    "id": 5,
+    "date": "2026-05-05",
+    "merchant": "Chipotle",
+    "category": "Dining",
+    "amount": 13.45
+  },
+  {
+    "id": 6,
+    "date": "2026-05-06",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 89.99
+  },
+  {
+    "id": 7,
+    "date": "2026-05-07",
+    "merchant": "LA Fitness",
+    "category": "Health",
+    "amount": 39.99
+  },
+  {
+    "id": 8,
+    "date": "2026-05-08",
+    "merchant": "Safeway",
+    "category": "Groceries",
+    "amount": 63.1
+  },
+  {
+    "id": 9,
+    "date": "2026-05-09",
+    "merchant": "Uber",
+    "category": "Transportation",
+    "amount": 18.5
+  },
+  {
+    "id": 10,
+    "date": "2026-05-10",
+    "merchant": "AMC Theatres",
+    "category": "Entertainment",
+    "amount": 27.0
+  }
+]
