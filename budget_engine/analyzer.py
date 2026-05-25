@@ -41,6 +41,7 @@ for category, total in totals.items():
 
 
 # Budget section
+
 final_report = {}
 
 # Loop through totals using .items() to get both the category name and spent number.
@@ -57,22 +58,3 @@ for category, total in totals.items():
         print("You went overboard")
     else: 
         print(f"Percentage left: {percentage_left}%")
-
-
-
-
-"""
-dining_spent = totals["Dining"]
-dining_budget = data_budgets["Dining"]
-
-dining_remaining = dining_spent - dining_budget
-print(dining_remaining)"""
-#print(data_budgets["Dining"])
-
-
-# remaining = totals - data_budgets[Dining]
-
-
-
-#for d in data:
- #   print(d) 
