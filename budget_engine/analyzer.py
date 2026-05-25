@@ -38,9 +38,33 @@ for item in data:
 for category, total in totals.items():
     print(f"{category}: ${total:.2f}")
 
-    print(data_budgets)
 
 
+# Budget section
+
+# Loop through totals using .items() to get both the category name and spent number.
+# I use the category placeholder to look up the matching limit in our budget file.
+for category, total in totals.items():
+    category_budget = data_budgets[category]
+
+    money_remaining = category_budget - totals[category]
+    print(f"{category} Budget: ${category_budget} | Spent: ${total:.2f} | Remaining: ${money_remaining:.2f}")
+    percentage_left = money_remaining / category_budget * 100
+    print(f"Percentage left: {percentage_left}%")
+
+
+
+
+"""
+dining_spent = totals["Dining"]
+dining_budget = data_budgets["Dining"]
+
+dining_remaining = dining_spent - dining_budget
+print(dining_remaining)"""
+#print(data_budgets["Dining"])
+
+
+# remaining = totals - data_budgets[Dining]
 
 
 
