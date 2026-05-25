@@ -16,5 +16,11 @@ This is the “math brain.”"""
 with open ('data/transactions.json', 'r') as file:
     data = json.load(file)
 
+for item in data:
+    amount = item["amount"]
+    merchant = item["merchant"]
+    print(f"Spent {amount} on {merchant}")
 
-print(data[0])
+
+#for d in data:
+ #   print(d) 
