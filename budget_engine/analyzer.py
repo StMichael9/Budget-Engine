@@ -38,6 +38,8 @@ for item in data:
 for category, total in totals.items():
     print(f"{category}: ${total:.2f}")
 
+    print(data_budgets)
+
 
 
 
