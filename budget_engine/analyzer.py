@@ -41,6 +41,7 @@ for category, total in totals.items():
 
 
 # Budget section
+final_report = {}
 
 # Loop through totals using .items() to get both the category name and spent number.
 # I use the category placeholder to look up the matching limit in our budget file.
@@ -50,7 +51,12 @@ for category, total in totals.items():
     money_remaining = category_budget - totals[category]
     print(f"{category} Budget: ${category_budget} | Spent: ${total:.2f} | Remaining: ${money_remaining:.2f}")
     percentage_left = money_remaining / category_budget * 100
-    print(f"Percentage left: {percentage_left}%")
+    
+
+    if money_remaining < 0:
+        print("You went overboard")
+    else: 
+        print(f"Percentage left: {percentage_left}%")
 
 
 
