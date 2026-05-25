@@ -1,0 +1,32 @@
+{
+    "Dining": {
+        "total": 22.2,
+        "money_remaining": 127.8,
+        "percentage_left": 85.2
+    },
+    "Groceries": {
+        "total": 117.30000000000001,
+        "money_remaining": 182.7,
+        "percentage_left": 60.9
+    },
+    "Transportation": {
+        "total": 60.6,
+        "money_remaining": 59.4,
+        "percentage_left": 49.5
+    },
+    "Entertainment": {
+        "total": 42.99,
+        "money_remaining": 57.01,
+        "percentage_left": 57.00999999999999
+    },
+    "Shopping": {
+        "total": 89.99,
+        "money_remaining": 110.01,
+        "percentage_left": 55.005
+    },
+    "Health": {
+        "total": 39.99,
+        "money_remaining": 35.01,
+        "percentage_left": 46.68
+    }
+}

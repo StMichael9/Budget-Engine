@@ -51,10 +51,21 @@ for category, total in totals.items():
 
     money_remaining = category_budget - totals[category]
     print(f"{category} Budget: ${category_budget} | Spent: ${total:.2f} | Remaining: ${money_remaining:.2f}")
-    percentage_left = money_remaining / category_budget * 100
+    percentage_left = money_remaining / category_budget * 100 
     
 
     if money_remaining < 0:
         print("You went overboard")
     else: 
         print(f"Percentage left: {percentage_left}%")
+
+ # Package calculations into a nested dictionary structure.
+ # # This prepares the data to be saved cleanly as a JSON object.
+    final_report[category] = {
+        "total": total,
+        "money_remaining": money_remaining,
+        "percentage_left": percentage_left,
+}
+
+with open ('data/report.json', 'w') as file:
+    json.dump(final_report, file, indent = 4)
