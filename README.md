@@ -1,4 +1,4 @@
-🧩 Budget Recommendation Engine (Rule‑Based)
+🧩 Budget-Engine
 A lightweight, modular backend engine that analyzes spending data and generates simple, rule‑based financial recommendations. It compares actual spending against category budgets and outputs clear insights like:
 
 “You’re over budget in Dining.”
