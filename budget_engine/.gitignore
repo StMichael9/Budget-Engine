@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# macOS system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Python cache
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+
+# Ignore report files if you don’t want them in Git
+budget_engine/data/report.json
+budget_engine/data/recommendations.json
