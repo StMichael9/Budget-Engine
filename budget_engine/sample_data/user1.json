@@ -1,0 +1,10 @@
+{
+  "income": 4200,
+  "expenses": {
+    "rent": 1500,
+    "food": 450,
+    "transportation": 180,
+    "entertainment": 200,
+    "savings": 300
+  }
+}
